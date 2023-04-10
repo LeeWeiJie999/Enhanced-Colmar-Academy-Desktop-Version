@@ -1,0 +1,360 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #989898;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 64px;
+    
+}
+
+header img{
+    padding-left: 24px;
+}
+
+.colmar{
+    color: #01161E;
+}
+
+.academy{
+    color: #9f9b9b;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 24px;
+}
+
+header nav a{
+    padding-right: 16px;
+    text-decoration: none;
+}
+
+/*Common Styles*/
+h1,h2,h3,h4,h5{
+    color: #4f4f4f;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 22px;
+}
+
+h4{
+    font-size: 20px;;
+}
+
+h5{
+    font-size: 18px;
+}
+
+.section1{
+    display: flex;
+    width: 100%;
+    background-color: #c4c2c2;
+}
+
+.imageBanner{
+    width: 100%;
+    flex-basis: 60%;
+    padding: 32px 24px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%
+}
+
+.description h1{
+    padding-bottom: 16px;
+}
+
+.description h4{
+    padding-bottom: 8px;
+}
+
+.startHereButton{
+    max-width: 60%;
+    background-color: #515151;
+    color: white;
+    padding: 5px 5px;
+
+}
+
+.informationMain{
+    flex-basis: 60%;
+    padding: 32px 24px;
+}
+
+.informationMain h2{
+    padding-top:32px;
+}
+
+.informationMain p{
+    padding-top:24px;
+}
+
+.informationMain h5{
+    padding-top:24px;
+    padding-bottom: 32px;
+}
+
+.section2{
+    display: flex;
+    width: 100%;
+}
+
+.section2Images{
+    padding: 32px 24px;
+}
+
+.section2Images1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.section2Images1 img{
+    max-width: 35%;
+}
+
+.section2Images1 div{
+    max-width: 65%;
+    padding-left: 15px;
+}
+
+.section2Images1Desc h3{
+    padding-bottom: 15px;
+}
+
+.section2Images1Desc p{
+    padding-bottom: 10px;
+}
+
+.readMoreButton{
+    color: #4577bc;
+    font-weight: bold;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c4c2c2;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.section3Heading{
+    padding: 32px 32px;
+}
+
+.imageContainer{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.imageSub{
+    padding-right: 32px;
+    margin-bottom: 32px;
+}
+
+.imageSub div{
+    background-color: white;
+    height:120px;
+    width: 532px;
+}
+
+.imageSubDesc{
+    padding-top:16px;
+    padding-left: 16px;
+}
+
+.imageSubDesc h4{
+    padding-bottom:8px;
+}
+
+.coursesDesc{
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section4Heading{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.section4sub{
+    display: flex;
+}
+
+.video{
+    width: 100%;
+    flex-basis: 60%;
+    padding: 32px 24px;
+}
+
+.video h3{
+    padding-top: 24px;
+}
+
+.video p{
+    padding-top: 15px;
+    padding-bottom: 32px;
+}
+
+.section4ImageContainer{
+    flex-basis: 40%;
+    padding-right: 24px;
+}
+
+.imagesSection4{
+    display: flex;
+    align-items: center;
+}
+
+.images1Section4 img{
+    padding: 16px 16px;
+}
+
+.images2Section4{
+    background-color: #c4c2c2;
+}
+
+.footer{
+    display: flex;
+    border: 1px solid lightgrey;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+.footer div{
+    padding-left: 24px;
+    width: 100%;
+}
+
+.footer nav{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.footer nav a{
+    padding-right: 15px;
+}
+
+
+@media screen and (max-width:720px) {
+    body{
+        width: 100%;
+    }
+    
+    header{
+        height:64px;
+        display: flex;
+    }
+
+    .section1 img{
+        width: 100%;
+    }
+
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a{
+        display: none;
+        
+    }
+
+    .imageBanner{
+        width: 100%;
+    }
+
+    .informationMain{
+        display: none
+    }
+
+    .section2Images1{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .description{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section2Images{
+        max-width: 100%;
+    }
+
+    .section2Images1 img{
+        padding: 32px 32px;
+        max-width: 100%;
+    }
+
+    .section2Images1Desc{
+        padding-top: 16px;
+        width: 100%;
+    }
+
+    .section3{
+        background-color: white;
+    }
+
+    .imageContainer img{
+        display: none;
+    } 
+    .imageSubDesc p{
+        display: none;
+    }
+    .imageSub{
+        background-color: lightgray;
+    }
+
+    .section1{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
